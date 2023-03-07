@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.section1{
+    background-color: #101727;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.section1-head h1{
+    font-size: 5rem;
+}
+.section1-para p{
+    font-size: 1rem;
+}
+
+
+.social{
+    border:1px solid rgba(0,0,0,.3);
+    height:300px;
+    border-radius: 5px;
+}
+.center img{
+    width: 70px;
+}
+.join-btn{
+    width: 100px;
+    height: 50px;
+    border: none;
+    font-size: 1.5rem;
+    background:#48d6b5 ;
+    color:#101727 ;
+    font-weight: 900;
+    border-radius: 5px;
+}
+
+.section3{
+    display: flex;
+    align-items: center;
+    background-color: #101727;
+    color: white;
+}
+.section3-head h3{
+    font-size: 3rem;
+}
+.section3-head p{
+    font-size: 4rem;
+    font-weight: 900;
+}
+.bootcamp-btn{
+    width: 250px;
+    height: 60px;
+    border: none;
+    font-size: 2rem;
+    background:#48d6b5 ;
+    color:#101727 ;
+    font-weight: 900;
+    border-radius: 5px;
+}
+
+.section4-head h3{
+    font-size: 3rem;
+}
+.join-discord{
+    width: 250px;
+    height: 60px;
+    border: none;
+    font-size: 1.5rem;
+    background:#48d6b5 ;
+    color:#101727 ;
+    font-weight: 900;
+    border-radius: 5px;
+}
+.section5{
+    background-color: #101727;
+    color:#48d6b5;
+}
+.section5 img{
+    width: 100%;
+}
+.section5 ul{
+    list-style-type: none;
+}
+.footer-li{
+    font-size: 3rem;
+    font-weight: 900;
+   
+}
+.line{
+    height: 2px;
+    background:#48d6b5;;
+}
+.social-links{
+    font-size: 2.5rem;
+}
+.linux{
+    width: 50%;
+}
+@media(width < 576px){
+    .section1-head h1{
+        font-size: 2.75rem;
+    }
+    .section3-head p{
+        font-size: 3rem;
+    }
+    .section5 ul{
+        font-size: 1.5rem;
+    }
+}
